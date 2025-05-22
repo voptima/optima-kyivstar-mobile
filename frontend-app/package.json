@@ -1,0 +1,10 @@
+{
+  "name": "frontend-app",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "echo build placeholder",
+    "test": "echo running tests"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
