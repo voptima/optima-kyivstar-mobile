@@ -1,0 +1,8 @@
+<div *ngIf="step===1">
+  <input [(ngModel)]="phone" placeholder="Phone">
+  <button (click)="requestCode()">Send Code</button>
+</div>
+<div *ngIf="step===2">
+  <input [(ngModel)]="code" placeholder="Code">
+  <button (click)="verifyCode()">Login</button>
+</div>
